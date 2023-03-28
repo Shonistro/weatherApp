@@ -97,7 +97,7 @@ body {
     width: 360px;
     background: #FFFFFF;
     border-radius: 6px;
-    box-shadow: 0px 5px 20px rgba(27, 108, 114, 0.25);
+    box-shadow: 0 5px 20px rgba(27, 108, 114, 0.25);
 }
 
 .card::before{
@@ -116,7 +116,7 @@ body {
 
 
     background: #FFFFFF;
-    box-shadow: 0px 5px 20px rgba(27, 108, 114, 0.25);
+    box-shadow: 0 5px 20px rgba(27, 108, 114, 0.25);
     border-radius: 6px;
 }
 
@@ -151,13 +151,15 @@ body {
 }
 
 .card-value{
-    font-weight: 400;
+
     font-size: 92px;
     line-height: 1;
     color: #000000;
 }
 
-
+.card-value sup {
+    font-size: 50%;
+}
 
 .card-img{
 
